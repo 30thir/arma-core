@@ -1,1 +1,5 @@
 Set Animation - 0 = this spawn{_this switchMove "acts_CrouchingCoveringRifle01";};
+
+Teleport - this addAction ["Teleport to Classroom", {player setPos (getPos name of object)}];
+
+Add Images - this setObjectTextureGlobal [0, images\nameofimage.jpg];
